@@ -2,13 +2,13 @@ key.infinity.category=Infinity Item Editor
 key.infinity.desc=Edita Este Item
 key.infinitycopy.desc=Copia A Quien Apuntes
 
-warning.notcreative=Necesitas estar en modo creativo para guardar items!
+warning.notcreative=Necesitas estar en modo creativo para guardar o editar items!
 
 itemGroup.unavailable=Infinity - Inobtenible
 itemGroup.banners=Infinity - Estandartes
 itemGroup.skulls=Infinity - Cabezas
 itemGroup.fireworks=Infinity - Fuegos Artificiales
-itemGroup.thief=Infinity - Ladron
+itemGroup.thief=Infinity - Inventario Robado
 
 gui.close=Cerrar
 gui.save=Guardar
@@ -27,8 +27,8 @@ gui.enchanting=Encantamientos
 gui.potion=Creacion De Pociones
 gui.book=Editor De Libros
 gui.attributes=Editor De Atributos
-gui.chestinventory=Ver Inventario De Cofre
-gui.hideflags=Escondedor
+gui.chestinventory=Ver Contenido De Cofre
+gui.hideflags=Ocultar Datos
 gui.bannermaker=Creador De Estandartes
 gui.fireworks=Observar Fuegos Artificiales
 gui.specialbutton=NBT Especial
@@ -37,8 +37,8 @@ gui.lore=Editor De Lore
 
 gui.armorstand.pose=Editor De Poses
 gui.armorstand.pose.reset.1=Resetea SOLO Poses
-gui.armorstand.invisible.note=Note: Podria ser dificil removerlo sin comandos!
-gui.armorstand.marker.note="Marker" Te quita la habilidad de interactuar con este
+gui.armorstand.invisible.note=Note: ¡Sera dificil remover sin comandos!
+gui.armorstand.marker.note="Marker" Nadie podra interactuar con este
 
 gui.attributes.infinity.0=Introducir Datos 
 gui.attributes.infinity.1=Infinito
@@ -46,13 +46,13 @@ gui.attributes.operation.0=Additivo +
 gui.attributes.operation.1=Multiplicativo *
 gui.attributes.operation.2=Exponential **
 gui.attributes.slot.0=Cualquier Sitio
-gui.attributes.slot.1=Mano Dominante
-gui.attributes.slot.2=Mano No Dominante
+gui.attributes.slot.1=Mano Principal
+gui.attributes.slot.2=Mano Secundaria
 gui.attributes.slot.3=Cabeza
 gui.attributes.slot.4=Pecho
 gui.attributes.slot.5=Piernas
 gui.attributes.slot.6=Pies
-attribute.name.generic.flyingSpeed=Velocidad Voladora De Mob
+attribute.name.generic.flyingSpeed=Velocidad de vuelo De Mob
 
 gui.book.title=Titulo
 gui.book.author=Autor
@@ -65,27 +65,27 @@ gui.book.resign=ReAsignar
 
 gui.enchanting.enchanttoggle.0=Mostrar Aplicable
 gui.enchanting.enchanttoggle.1=Mostrar Todo
-gui.enchanting.addall=Añadir Todo Visible
+gui.enchanting.addall=Añadir Todo lo Visible
 
 gui.spawnegg.entity=Especifico de entidad
 gui.spawnegg.mob=Especifico de mob
 gui.spawnegg.mobspecific=Especifico de %s
 gui.spawnegg.animalspecific=Especifico De %s
 
-gui.head.save.tooltip.1=Alomejor laguea mientras consigue los datos.
+gui.head.save.tooltip.1=A lo mejor laguea mientras se consigue los datos.
 gui.head.save.tooltip.2=Esto es un problema Vanilla.
 gui.head.list.tooltip.1=Mira la lista de personas en el servidor.
 gui.head.list.tooltip.2=--No Implementado Todavia--
 
 gui.headcollection.category.alphabet=Alfabeto
 gui.headcollection.category.animals=Animales
-gui.headcollection.category.blocks=Blockes
+gui.headcollection.category.blocks=Bloques
 gui.headcollection.category.decoration=Decoracion
 gui.headcollection.category.food-drinks=Comidas/Bebidas
 gui.headcollection.category.humans=Humanos
 gui.headcollection.category.humanoid=Humanoides
-gui.headcollection.category.miscellaneous=Miscellaneos
-gui.headcollection.category.monsters=Mounstros
+gui.headcollection.category.miscellaneous=Miscelaneos
+gui.headcollection.category.monsters=Monstruos
 gui.headcollection.category.plants=Plantas
 
 gui.headcollection.clickhead=Click para remplazar este objeto
@@ -110,10 +110,10 @@ gui.nbt.comp.open=Click para expandir Tag
 gui.nbt.comp.close=Click para colapsar Tag
 
 tag.head.0=Calavera De Esqueleto
-tag.head.1=Calavera De Esqueleto Marchito
-tag.head.2=Cabeza Zombie
+tag.head.1=Calavera De Esqueleto Wither
+tag.head.2=Cabeza De Zombie
 tag.head.3=Cabeza De Jugador
-tag.head.4=Cabeza Creeper
+tag.head.4=Cabeza De Creeper
 tag.head.5=Cabeza De Dragon
 
 gui.potion.time=Duracion (Segundos)
@@ -192,7 +192,7 @@ tag.creeper.explosionradius.on=Radio de explosion: %s
 tag.creeper.explosionradius.off=Sin radio de explosion
 tag.creeper.fuse.on=Tiempo hasta que explote: %s
 tag.creeper.fuse.off=Explosion Instantanea
-tag.creeper.ignited.on=Ecendido
+tag.creeper.ignited.on=Encendido
 tag.creeper.ignited.off=Apagado
 
 tag.endermite.lifetime.off=Esperanza de vida aleatoria
